@@ -44,7 +44,7 @@ The app registers itself as a handler for `.excalidraw` files. You can double-cl
 ## Development
 Before building the project, ensure you have the following prerequisites installed:
 
-- Node.js (version 18.x or higher)
+- Node.js (version 22.12.0 or higher)
 - npm (comes with Node.js)
 
 Clone the repository:
