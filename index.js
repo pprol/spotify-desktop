@@ -266,7 +266,9 @@ function createWindow() {
     saveWindowState(win);
   });
 
-  win.loadURL('https://open.spotify.com/');
+  win.loadURL('https://open.spotify.com/', {
+    userAgent: desktopUserAgent
+  });
 
   // Hide menu bar visually for Windows and Linux, but keep keyboard shortcuts working
   if (process.platform === 'win32' || process.platform === 'linux') {
